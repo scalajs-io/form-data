@@ -10,7 +10,7 @@ to other web applications.
 <a name="build_requirements"></a>
 ### Build Requirements
 
-* [SBT v0.13.15](http://www.scala-sbt.org/download.html)
+* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
 
 <a name="building_sdk"></a>
 ### Build/publish the SDK locally
@@ -85,7 +85,7 @@ form.append("my_logo", Request("http://nodejs.org/images/logo.png"))
 To add the `Form-data` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "form-data" % "0.4.0"
+libraryDependencies += "io.scalajs.npm" %%% "form-data" % "0.4.1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
